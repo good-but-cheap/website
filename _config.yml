@@ -12,7 +12,13 @@ collections:
   reviews:
     output: true
     permalink: /review/:title
-    layout: review
+
+defaults:
+  - scope:
+      path: ""
+      type: "reviews"
+    values:
+      layout: "review"
 
 plugins:
   - jekyll-remote-theme
