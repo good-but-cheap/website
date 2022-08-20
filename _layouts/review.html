@@ -2,16 +2,8 @@
 layout: default
 ---
 
-{% include nav.html %}
-
-<div id="centerer" style="width:864px;">
-  <div id="centered" style="margin: 0 auto; width:855px;">
-
-<article class="review">
-
-
-    <img src="{{ page.picture }}" alt="Photo of a {{ page.title | downcase }}">
-
+{% include head.html %}
+{% include pagenav.html %}
 
   <h1>Product Review: {{ page.title }}</h1>
 
@@ -19,29 +11,4 @@ layout: default
     {{ content }}
   </div>
 
-</article>
-</div>
-</div>
-
-<!-- Bootstrap core JavaScript -->
-<script src="../assets/js/jquery.min.js"></script>
-<script src="../assets/js/bootstrap.bundle.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src="../assets/js/jquery.easing.min.js"></script>
-
-<!-- Contact form JavaScript -->
-<script src="../assets/js/jqBootstrapValidation.js"></script>
-<script src="../assets/js/contact_me.js"></script>
-
-<!-- Custom scripts for this template -->
-<script src="../assets/js/agency.min.js"></script>
-
-<!-- Bootstrap core CSS -->
-<link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
-
-<!-- Custom fonts for this template -->
-<link href="../assets/css/all.min.css" rel="stylesheet" type="text/css">
-
-<!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
-<link href="../assets/css/agency.css" rel="stylesheet" />
+  {% include pagefooter.html %}
