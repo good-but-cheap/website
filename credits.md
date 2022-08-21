@@ -1,7 +1,17 @@
 ---
 layout: page
 title: Credits
+sections:
+  good: This is the introduction
+  better: |
+    There are many useful ways to use YAML front matter.
+
+    ## Heading
+    Because these can be multiple paragraphs
 ---
+
+
+
 
 Good But Cheap is a creation of the
 
