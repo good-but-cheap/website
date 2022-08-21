@@ -1,1 +1,327 @@
-{% include pageheader.html %}
+<!-- {% include pageheader.html %} -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Product Reviews, Focused on Adequacy!">
+  <meta name="author" content="The Good But Cheap Team">
+  <link rel="canonical" href="/agency-jekyll-theme-starter/">
+
+  <title>Good But Cheap</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom fonts for this template -->
+  <link href="css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this theme -->
+  <!--<link href="http://good-but-cheap.github.io/agency-theme-test/assets/css/agency.min.css" rel="stylesheet">-->
+  <link href="css/agency.css" rel="stylesheet" />
+  <link href="css/custom.css" rel="stylesheet" />
+
+  <!-- Page container change top padding when nav shrinks -->
+</head>
+
+  <body id="page-top">
+
+        <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+	  <a class="navbar-brand js-scroll-trigger" href="#page-top">Good But Cheap</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+        
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Reviews">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#About">About</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Share">Share</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#credits">Credits</a></li>
+        
+        
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navigation -->
+  
+  <!-- Header -->
+  
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <!-- <div class="intro-lead-in"><p>Product Reviews, with a Focus on Adequacy</p></div> -->
+        <div class="intro-heading text-uppercase"><p>{{page.title}}</p></div>
+        <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Reviews</a> -->
+      </div>
+    </div>
+  </header>
+  
+  <!-- End Header -->
+
+<!-- Content -->
+
+  <section class="page-section" id="services">
+    <div class="container">
+	
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{page.title}}</h2>
+          
+		  <h3 class="section-subheading text-muted">Lorem ipsum</h3>
+		  
+        </div>
+      </div>
+	  
+      <div class="row text-center">
+	  
+        <div class="col-md-10">
+          <!-- <h4 class="service-heading"><p>Credits</p></h4>
+
+          <div class="text-muted"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            {{content}}
+          </div> -->
+          <div>{{content}}</div>
+          <p>Good But Cheap is a creation of the</p>
+          <h4 class="text-uppercase">Good But Cheap Team</h4>
+          <center>
+          <table>
+            <tbody>
+              <tr>
+                <th style="text-align: left">Website Development</th>
+                <th style="text-align: center">&nbsp;</th>
+                <th style="text-align: right">Website Design</th>
+              </tr>
+              <tr>
+                <th style="text-align: left">Review Editorial Board</th>
+                <th style="text-align: center">&nbsp;</th>
+                <th style="text-align: right">Review Writers</th>
+              </tr>
+              <tr>
+                <th style="text-align: left">Affiliate Team</th>
+                <th style="text-align: center">&nbsp;</th>
+                <th style="text-align: right"></th>
+              </tr>
+            </tbody>
+          </table>
+          </center>
+          <p>Good But Cheap is made possible by many underlying technologies.</p>
+
+          <center>
+            <table>
+              <tbody>
+                <tr>
+                  <th style="text-align: left">Agency Jekyll Theme</th>
+                  <td style="text-align: right">by <a href="https://github.com/raviriley/agency-jekyll-theme-starter">Ravi Riley</a> with contributions from <a href="">Ramon Benitez-Pagan</a></td>
+                </tr>
+                <tr>
+                  <th style="text-align: left">Agency Theme Design</th>
+                  <td style="text-align: right">by <a href="https://startbootstrap.com/theme/agency">Start Bootstrap</a></td>
+                </tr>
+              </tbody>
+            </table>
+            </center>
+
+
+            <div>
+                <h2>New Stuff</h2>
+                <div>{{ page.sections['good'] | textilize }}</div>
+                <div>{{ page.sections['better'] | textilize }}</div>
+            </div>
+
+        </div>
+	  
+        <div class="col-md-2">
+          <h4 class="service-heading"><p>Sidebar</p>
+</h4>
+          <div class="text-muted"><p>Some other information.</p>
+</div>
+        </div>
+	  
+      </div>
+	  
+    </div>
+  </section>
+
+<!-- End Services -->
+
+<!-- Top Review Grid -->
+
+<section class="bg-light page-section" id="related">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase"><p>Related Reviews</p>
+</h2>
+        <h3 class="section-subheading text-muted"><p>That might be of interest</p>
+</h3>
+      </div>
+    </div>
+    <div class="row">
+    
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="#p1">
+          <img class="img-fluid" src="img/reviews/chub.png" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>USB C Laptop Docks</h4>
+          <p class="text-muted"></p>
+        </div>
+      </div>
+    
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="#p1">
+          <img class="img-fluid" src="img/reviews/cooler.png" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Coolers</h4>
+          <p class="text-muted"></p>
+        </div>
+      </div>
+    
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="#p1">
+          <img class="img-fluid" src="img/reviews/hdd.png" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Hard Drives</h4>
+          <p class="text-muted"></p>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+
+<!-- <section class="page-section" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">About Us</h2>
+        <h3 class="section-subheading text-muted">our story</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="large text-muted"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. <strong>Markdown</strong> supported.</p>
+</div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- End About -->
+
+<!-- Contact -->
+
+<section class="page-section" id="contact">
+    <div class="container">
+  </div>
+</section>
+
+<!-- End Contact -->
+
+
+	  <!-- Footer -->
+<footer class="footer" id="footer" style="background-color: white">
+  <div class="container">
+    
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <span class="copyright"
+          >Copyright &copy; Good But Cheap 2022</span
+        >
+      </div>
+      <!-- Social Media -->
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          
+          <!-- <li class="list-inline-item">
+            
+            <a href="https://en.wikipedia.org/wiki/Avocado">
+              <i class="fa-regular fa-avocado"></i>
+            </a>
+            
+          </li>
+          
+          <li class="list-inline-item">
+            
+            <a href="https://en.wikipedia.org/wiki/Tomato">
+              <i class="fa-solid fa-tomato"></i>
+            </a>
+            
+          </li>
+          
+          <li class="list-inline-item">
+            
+            <a href="https://en.wikipedia.org/wiki/Croissant">
+              <i class="fa-solid fa-croissant"></i>
+            </a>
+            
+          </li>
+          
+          <li class="list-inline-item">
+            
+            <a href="https://en.wikipedia.org/wiki/Lime_(fruit)">
+              <i class="fa-duotone fa-citrus-slice"></i>
+            </a>
+            
+          </li>
+          
+          <li class="list-inline-item">
+            
+            <a href="https://en.wikipedia.org/wiki/Pineapple">
+              <i class="fa-regular fa-pineapple"></i>
+            </a>
+            
+          </li> -->
+          
+        </ul>
+      </div>
+      <!-- Legal -->
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          <li class="list-inline-item">
+            <a href="legal"
+              >Privacy Policy</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+<!-- End Footer -->
+
+
+	  <!-- Bootstrap core JavaScript -->
+	  <script src="js/jquery.min.js"></script>
+	  <script src="js/bootstrap.bundle.min.js"></script>
+
+	  <!-- Plugin JavaScript -->
+	  <script src="js/jquery.easing.min.js"></script>
+
+	  <!-- Contact form JavaScript -->
+	  <!-- <script src="http://good-but-cheap.github.io/agency-theme-test/assets/js/jqBootstrapValidation.js"></script>
+	  <script src="http://good-but-cheap.github.io/agency-theme-test/assets/js/contact_me.js"></script> -->
+
+	  <!-- Custom scripts for this template -->
+	  <script src="js/agency.min.js"></script>
+
+  </body>
+</html>
