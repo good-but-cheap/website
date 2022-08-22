@@ -2,6 +2,7 @@
 layout: review
 title: USB C Laptop Docks
 picture: #https://upload.wikimedia.org/wikipedia/commons/1/1c/Lewis_Carroll_-_Henry_Holiday_-_Hunting_of_the_Snark_-_Plate_10.jpg
+updated: August 2022
 ---
 
 {% capture considerations %}
