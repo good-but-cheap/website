@@ -19,7 +19,7 @@ picture: #https://upload.wikimedia.org/wikipedia/commons/1/1c/Lewis_Carroll_-_He
     - USB A devices
     - USB C devices
     - Ethernet
-    - SD cards
+    - SD cardss
 {% endcapture %}
 
 {% capture recommendation %}
@@ -36,3 +36,5 @@ picture: #https://upload.wikimedia.org/wikipedia/commons/1/1c/Lewis_Carroll_-_He
 - There are a variety of rebranded versions of these devices. Find one with the port layout you like, they all seem to perform about the same, assuming they have reasonably good reviews.
 - There is a step up from here in laptop docks, but it's 3-4x as expensive. At this price point, look for an option from your laptop manufacturer, or something like the [Anker 575 USB-C Docking Station](https://www.amazon.com/Anker-Docking-PowerExpand-Charging-Ethernet/dp/B088F7SY6S).
 {% endcapture %}
+
+{% include reviewtemplate.html %}
