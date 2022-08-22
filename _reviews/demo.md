@@ -1,8 +1,19 @@
 ---
 layout: page
 title: Demo
+sections:
+  good: This is a demo
+  better: |
+    There are many useful ways to use YAML front matter.
+
+    ## Heading
+    Because these can be multiple paragraphs
 ---
 
+
+{% capture considerations %}
+
+Good But Cheap
 Under Construction
 
 This is a demo of all styled elements in Jekyll Now. 
@@ -70,3 +81,5 @@ Finally, horizontal lines
  
 ----
 ****
+
+{% endcapture %}

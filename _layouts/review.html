@@ -1,22 +1,109 @@
----
-layout: default
----
-
-{% include head.html %}
-{% include pagenav.html %}
-
-  <h1>Product Review: {{ page.title }}</h1>
-
-  <div class="container" id="pagecontainer">
-    <div class="col-lg-12 text-center">
-      <h2 class="section-heading text-uppercase">{{page.title}}</h2>
+{% include pageheader.html %}
+  
+  <!-- Header -->
+  
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <!-- <div class="intro-lead-in"><p>Product Reviews, with a Focus on Adequacy</p></div> -->
+        <div class="intro-heading text-uppercase"><p>{{page.title}}</p></div>
+        <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Reviews</a> -->
+      </div>
     </div>
-    
-    
-    <div>
-      {{ content }}
-    </div>
-    
-    </div>
+  </header>
+  
+  <!-- End Header -->
 
-  {% include pagefooter.html %}
+<!-- Content -->
+
+  <section class="page-section" id="services">
+    <div class="container">
+	
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{page.title}}</h2>
+          
+		  <h3 class="section-subheading text-muted">Lorem ipsum</h3>
+		  
+        </div>
+      </div>
+	  
+      <div class="row text-center">
+	  
+        <div class="col-md-10">
+            <div>
+                <h2>Considerations:</h2>
+                <div>{{ considerations }}</div>
+                <h2>What you need to know:</h2>
+                <div>{{ know }}</div>
+                <h2>Recommendation:</h2>
+                <div>{{ recommendation }}</div>
+                <h2>Where to go for more:</h2>
+                <div>{{ more }}</div>
+            </div>
+
+        </div>
+	  
+        <div class="col-md-2">
+          <h4 class="service-heading"><p>Sidebar</p>
+</h4>
+          <div class="text-muted"><p>Some other information.</p>
+</div>
+        </div>
+	  
+      </div>
+	  
+    </div>
+  </section>
+
+<!-- End Services -->
+
+<!-- Top Review Grid -->
+
+<section class="bg-light page-section" id="related">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase"><p>Related Reviews</p>
+</h2>
+        <h3 class="section-subheading text-muted"><p>That might be of interest</p>
+</h3>
+      </div>
+    </div>
+    <div class="row">
+    
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="#p1">
+          <img class="img-fluid" src="img/reviews/chub.png" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>USB C Laptop Docks</h4>
+          <p class="text-muted"></p>
+        </div>
+      </div>
+    
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="#p1">
+          <img class="img-fluid" src="img/reviews/cooler.png" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Coolers</h4>
+          <p class="text-muted"></p>
+        </div>
+      </div>
+    
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="#p1">
+          <img class="img-fluid" src="img/reviews/hdd.png" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Hard Drives</h4>
+          <p class="text-muted"></p>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</section>
+
+{% include pagefooter.html %}
