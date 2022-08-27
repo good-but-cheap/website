@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Credits
+sections:
+  sidebar: sidebar content
 ---
 
 
