@@ -1,5 +1,5 @@
 # Jekyll config for good.but.cheap
-# using the Agency theme
+# based on the Agency theme
 
 url: "https://good.but.cheap"
 
@@ -19,8 +19,3 @@ defaults:
       type: "reviews"
     values:
       layout: "review"
-
-plugins:
-  - jekyll-remote-theme
-
-remote_theme: raviriley/agency-jekyll-theme
