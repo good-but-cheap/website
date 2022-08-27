@@ -37,3 +37,7 @@ blockquote:after {
   text-align: right;
   color: #fed136;
 }
+
+table {
+  margin: 0 auto;
+}
