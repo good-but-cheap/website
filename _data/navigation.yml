@@ -1,9 +1,0 @@
-nav:
-  - title: "Reviews"
-    section: reviews
-  - title: "About"
-    section: about
-  - title: "Contact"
-    section: contact
-  - title: "Credits"
-    url: credits.html
