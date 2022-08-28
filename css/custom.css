@@ -20,27 +20,10 @@ section#related {
   background-color: #212529;
 }
 
-blockquote p:before {
-  content: '\201C';
-  position: absolute;
-  top: 0em;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 3rem;
-  height: 2rem;
-  font-style: italic;
-  text-align: center;
-}
-blockquote p:after {
-  content: "\2013 \2003" attr(cite);
-  display: block;
-  text-align: right;
-  color: #fed136;
-}
-
 blockquote p {
   font-style: italic;
   background-color: #f8f9fa;
+  text-align: center;
   text-align-last: right;
 }
 
