@@ -22,7 +22,8 @@ Good But Cheap is made possible by many underlying technologies.
 |||
 |:--|:--|
 | [**Agency Theme**](https://github.com/startbootstrap/startbootstrap-agency) 	| by [Start Bootstrap](https://startbootstrap.com/theme/agency) |
-| [**Agency Jekyll Theme**](https://github.com/raviriley/agency-jekyll-theme) | by [Ravi](https://github.com/raviriley) with contributions from |
+| [**Agency Jekyll Theme**](https://github.com/raviriley/agency-jekyll-theme) | by [Ravi](https://github.com/raviriley) 
+|| with contributions from |
 || [Ramon Benitez-Pagan](https://github.com/rbenitezpagan) |
 || [MiUPRB Web Services](https://github.com/miuprb) |
 || [Sergey Morozov](https://github.com/morozgrafix) |
@@ -41,7 +42,6 @@ Good But Cheap is made possible by many underlying technologies.
 And many other technologies, some so far abstracted, that we're not even aware of their necessity.
 
 > If [we] have seen further it is by standing on the shoulders of giants.
-> 
 > -- Isaac Newton
 
 Open source software and resources used by Good But Cheap include:

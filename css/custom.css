@@ -41,6 +41,7 @@ blockquote p:after {
 blockquote p {
   font-style: italic;
   background-color: #f8f9fa;
+  text-align-last: right;
 }
 
 table {
