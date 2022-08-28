@@ -86,15 +86,14 @@ __________________
 | Software | |
 |:--|:--|
 | Visual Studio Code | https://code.visualstudio.com/ | 
-| Linux | https://www.kernel.org/ |
-| Ubuntu | https://ubuntu.com/ |
-| Pop_OS! | https://pop.system76.com/ |
-| Firefox | https://www.mozilla.org/en-US/firefox/new/ |
-| JavaScript | https://www.ecma-international.org/publications-and-standards/standards/ecma-262/ |
-| Cascading Style Sheets | https://www.w3.org/TR/CSS/ |
+| Linux | [https://www.kernel.org/](https://www.kernel.org/) |
+| Ubuntu | [https://ubuntu.com/](https://ubuntu.com/) |
+| Pop_OS! | [https://pop.system76.com/](https://pop.system76.com/) |
+| Firefox | [https://www.mozilla.org/firefox/](https://www.mozilla.org/firefox/new/) |
+| JavaScript | [https://www.ecma-international.org/](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/) |
+| Cascading Style Sheets | [https://www.w3.org/TR/CSS/](https://www.w3.org/TR/CSS/) |
 
 
-<!-- [MIT License](https://github.com/microsoft/vscode/blob/main/LICENSE.txt) and [other license terms](https://code.visualstudio.com/License/) -->
 
 _____________
 
@@ -108,7 +107,9 @@ _____________
 We would not have productions to review without the "makers of things". Thanks to all the companies, and the many, many people within them, who make the products we recommend. It would be a less prosperous and free world without your efforts.
 
 |||
+
 ____________________
+
 
 |||
 
