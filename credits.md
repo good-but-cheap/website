@@ -33,19 +33,62 @@ Good But Cheap is made possible by many underlying technologies.
 || [Zhang Xiawei](https://github.com/shou1dwe) |
 || and [Brian](https://github.com/bheithaus) |
 | [**Jekyll**](https://jekyllrb.com/) | by the [Jekyll Core Team](https://jekyllrb.com/team/) |
+| **Bootstrap** |  |
 | [**Ruby Gems**](https://rubygems.org/) | by [Nick Quaranto and others](https://rubygems.org/pages/about) |
+| **Ruby** |  |
+| **** |  |
+| **** |  |
+| **Git** |  |
+| **GitHub** |  |
 | **GitHub Pages** |  |
-|  |  |
+| **Visual Studio Code** |  |
 |  |  |
 |  |  |
 
 And many other technologies, some so far abstracted, that we're not even aware of their necessity.
 
-> If [we] have seen further it is by standing on the shoulders of giants.<br>
-> -- Isaac Newton
+> If [we] have seen further it is by standing on the shoulders of giants.
+> -- Isaac Newton, 1675
+
+
+Special thanks to 
+
+|  |  |
+|:--|:--|
+| Paul Baran, Vint Cerf, Danny Cohen, Steve Crocker, Donald Davies, Elizabeth J. Feinler, Charles Herzfeld, Robert Kahn, Peter Kirstein, Leonard Kleinrock, John Klensin, Jon Postel, Louis Pouzin, Lawrence Roberts, Mitchell Baker, Tim Berners-Lee, Robert Cailliau, Van Jacobson, Lawrence Landweber, Paul Mockapetris, Craig Newmark, Raymond Tomlinson, Linus Torvalds, Philip Zimmermann, Randy Bush,Kilnam Chon, Al Gore, Nancy Hafkin, Geoff Huston, Brewster Kahle, Daniel Karrenberg, Toru Takahashi, and Tan Tin Wee | For their contributions as Pioneers, Innovators, and Global Connectors to the World Wide Web, TCP/IP, and many other Internet technologies  |
+
+
 
 Open source software and resources used by Good But Cheap include:
 
-||License|
+| Under MIT License |  |
 |:--|:--|
 | Ruby Gems | [MIT License](https://github.com/rubygems/rubygems.org/blob/master/MIT-LICENSE) |
+| Jekyll Agency Theme |  |
+| Jekyll |  |
+|  |  |
+
+| Under Other Licenses |  |
+| Linux |  |
+| Ubuntu |  |
+| Pop_OS! |  |
+| Firefox |  |
+
+_____________
+
+Thank you to
+
+> the risk-takers, the doers, the makers of things ... who have carried us up the long, rugged path toward prosperity and freedom.
+> -- Barack Obama, Inaugural Address, 2009
+
+We would not have productions to review without the "makers of things". Thanks to all the companies, and the many, many people within them, who make the products we recommend. It would be a less prosperous and free world without your efforts.
+
+____________________
+
+Thanks to those who share their opinions online (yes, really).
+
+A review, a blog post, a comment. Obsessing over the details of a rumor for a product yet to be revealed...
+
+It all contributes to the rriver of information that les us find and select products to review.
+
+Stay weird, Internet.
