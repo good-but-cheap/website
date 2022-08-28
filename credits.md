@@ -1,8 +1,6 @@
 ---
 layout: page
 title: Credits
-sections:
-  sidebar: sidebar content
 ---
 
 
@@ -21,16 +19,19 @@ Good But Cheap is made possible by many underlying technologies.
 
 |||
 |:--|:--|
-| **Agency Theme** 	| by [Start Bootstrap](https://startbootstrap.com/theme/agency) |
-| **Agency Jekyll Theme** | by [Ravi](https://github.com/raviriley) with contributions from |
+| [**Agency Theme**](https://github.com/startbootstrap/startbootstrap-agency) 	| by [Start Bootstrap](https://startbootstrap.com/theme/agency) |
+| [**Agency Jekyll Theme**](https://github.com/raviriley/agency-jekyll-theme) | by [Ravi](https://github.com/raviriley) with contributions from |
 || [Ramon Benitez-Pagan](https://github.com/rbenitezpagan)|
-|| [](https://github.com/miuprb)|
-|| [](https://github.com/morozgrafix)|
-|| [](https://github.com/xsuchy), [](https://github.com/MichaelCurrin)|
-|| [](https://github.com/bkfirmen)|
+|| [MiUPRB Web Services](https://github.com/miuprb)|
+|| [Sergey Morozov](https://github.com/morozgrafix)|
+|| [Miroslav Suchý](https://github.com/xsuchy)|
+|| [Michael Currin](https://github.com/MichaelCurrin)|
+|| [bkfirmen](https://github.com/bkfirmen)|
 || and others |
-| **Jekyll** | |
-| **Ruby** | |
+|| [Zhang Xiawei](https://github.com/shou1dwe) |
+|| and [Brian](https://github.com/bheithaus) |
+| [**Jekyll**](https://jekyllrb.com/) | by the [Jekyll Core Team](https://jekyllrb.com/team/) |
+| [**Ruby Gems**](https://rubygems.org/) | by [Nick Quaranto and others](https://rubygems.org/pages/about) |
 | **GitHub Pages** |  |
 |  |  |
 |  |  |
@@ -43,4 +44,6 @@ And many other technologies, some so far abstracted, that we're not even aware o
 
 Open source software and resources used by Good But Cheap include:
 
-|  |  |
+||License|
+|:--|:--|
+| Ruby Gems | [MIT License](https://github.com/rubygems/rubygems.org/blob/master/MIT-LICENSE) |
