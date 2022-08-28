@@ -38,6 +38,11 @@ blockquote:after {
   color: #fed136;
 }
 
+blockquote p {
+  font-style: italic;
+  background-color: #212529;
+}
+
 table {
   margin: 0 auto;
 }
