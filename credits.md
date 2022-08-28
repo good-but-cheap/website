@@ -18,7 +18,9 @@ Good But Cheap is a creation of
 
 _______________
 
-Good But Cheap is made possible by many underlying technologies.
+|||
+
+#### Good But Cheap is made possible by many underlying technologies.
 
 |||
 |:--|:--|
@@ -35,16 +37,19 @@ Good But Cheap is made possible by many underlying technologies.
 || and [Brian](https://github.com/bheithaus) |
 | [**Jekyll**](https://jekyllrb.com/) | by the [Jekyll Core Team](https://jekyllrb.com/team/) |
 | [**Bootstrap**](https://getbootstrap.com/) | by  |
-| [**Ruby Gems**](https://rubygems.org/) | by [Nick Quaranto and others](https://rubygems.org/pages/about) |
-| [**Ruby**](https://www.ruby-lang.org/en/) | by [Yukihiro “Matz” Matsumoto](http://www.rubyist.net/~matz/) and [many other contributors](https://github.com/ruby/ruby/graphs/contributors) |
-| [**Git**](https://git-scm.com/) | by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) and [many other contributors](https://github.com/git/git/graphs/contributors) |
+| [**Ruby Gems**](https://rubygems.org/) | by [Nick Quaranto](https://rubygems.org/pages/about) |
+|| [and others](https://rubygems.org/pages/about) |
+| [**Ruby**](https://www.ruby-lang.org/en/) | by [Yukihiro “Matz” Matsumoto](http://www.rubyist.net/~matz/) |
+|| and [many other contributors](https://github.com/ruby/ruby/graphs/contributors) |
+| [**Git**](https://git-scm.com/) | by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) |
+|| and [many other contributors](https://github.com/git/git/graphs/contributors) |
 | [**GitHub**](https://github.com/) | by [GitHub](https://github.com/about/leadership) |
 | [**GitHub Pages**](https://pages.github.com/) | by [GitHub](https://github.com/about/leadership) |
 | [**Visual Studio Code**](https://code.visualstudio.com/) | by [Microsoft](https://www.microsoft.com/) |
 |  |  |
 |  |  |
 
-Special thanks to 
+### Special thanks to 
 
 |  |  |
 |:--|:--|
@@ -57,6 +62,7 @@ Like many modern websites, Good But Cheap is built on a stack of tools and resou
 > If [we] have seen further it is by standing on the shoulders of giants.<br>
 > -- Isaac Newton, 1675
 
+|||
 __________________
 
 ||||
@@ -72,6 +78,8 @@ __________________
 | Bootstrap Agency Theme | [MIT License](https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
 | Jekyll | [MIT License](https://github.com/jekyll/jekyll/blob/master/LICENSE) |
 | Bootstrap | [MIT License](https://github.com/twbs/bootstrap/blob/main/LICENSE) |
+|||
+|||
 
 ##### Additional development tools include
 
@@ -90,6 +98,8 @@ __________________
 
 _____________
 
+|||
+
 #### Thank you to
 
 > the risk-takers, the doers, the makers of things ... who have carried us up the long, rugged path toward prosperity and freedom.<br>
@@ -97,7 +107,10 @@ _____________
 
 We would not have productions to review without the "makers of things". Thanks to all the companies, and the many, many people within them, who make the products we recommend. It would be a less prosperous and free world without your efforts.
 
+|||
 ____________________
+
+|||
 
 #### Finally,
 
