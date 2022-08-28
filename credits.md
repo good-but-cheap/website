@@ -36,7 +36,8 @@ _______________
 || [Zhang Xiawei](https://github.com/shou1dwe) |
 || and [Brian](https://github.com/bheithaus) |
 | [**Jekyll**](https://jekyllrb.com/) | by the [Jekyll Core Team](https://jekyllrb.com/team/) |
-| [**Bootstrap**](https://getbootstrap.com/) | by  |
+| [**Bootstrap**](https://getbootstrap.com/) | by  [twbs](https://github.com/twbs) |
+|| [and many contributors](https://github.com/twbs/bootstrap/graphs/contributors) |
 | [**Ruby Gems**](https://rubygems.org/) | by [Nick Quaranto](https://rubygems.org/pages/about) |
 || [and others](https://rubygems.org/pages/about) |
 | [**Ruby**](https://www.ruby-lang.org/en/) | by [Yukihiro “Matz” Matsumoto](http://www.rubyist.net/~matz/) |
@@ -63,7 +64,9 @@ Like many modern websites, Good But Cheap is built on a stack of tools and resou
 > -- Isaac Newton, 1675
 
 |||
+
 __________________
+
 
 ||||
 ||||
