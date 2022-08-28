@@ -41,7 +41,7 @@ Good But Cheap is made possible by many underlying technologies.
 
 And many other technologies, some so far abstracted, that we're not even aware of their necessity.
 
-> If [we] have seen further it is by standing on the shoulders of giants.  
+> If [we] have seen further it is by standing on the shoulders of giants.<br>
 > -- Isaac Newton
 
 Open source software and resources used by Good But Cheap include:
