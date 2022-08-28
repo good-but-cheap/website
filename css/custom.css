@@ -20,7 +20,7 @@ section#related {
   background-color: #212529;
 }
 
-blockquote:before {
+blockquote p:before {
   content: '\201C';
   position: absolute;
   top: 0em;
@@ -31,7 +31,7 @@ blockquote:before {
   font-style: italic;
   text-align: center;
 }
-blockquote:after {
+blockquote p:after {
   content: "\2013 \2003" attr(cite);
   display: block;
   text-align: right;
@@ -40,7 +40,7 @@ blockquote:after {
 
 blockquote p {
   font-style: italic;
-  background-color: #212529;
+  background-color: #f8f9fa;
 }
 
 table {
