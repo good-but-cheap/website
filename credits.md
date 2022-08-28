@@ -10,9 +10,11 @@ Good But Cheap is a creation of
 
 # The Good But Cheap Team
 
+|||
 | **Website Development** |  	  	| **Website Design** |
 | **Review Editorial Board** | 	  	| **Review Writers** |
 |  | **Affiliate Team** | |
+|||
 
 
 Good But Cheap is made possible by many underlying technologies.
