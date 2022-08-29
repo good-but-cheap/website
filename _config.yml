@@ -11,7 +11,7 @@ author: The Good But Cheap Team
 collections:
   reviews:
     output: true
-    permalink: /review/:title
+    permalink: /review/:title/
 
 defaults:
   - scope:
