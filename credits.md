@@ -88,7 +88,7 @@ __________________
 
 | Software | |
 |:--|:--|
-| Visual Studio Code | https://code.visualstudio.com/ | 
+| Visual Studio Code | [https://code.visualstudio.com/](https://code.visualstudio.com/) | 
 | Linux | [https://www.kernel.org/](https://www.kernel.org/) |
 | Ubuntu | [https://ubuntu.com/](https://ubuntu.com/) |
 | Pop_OS! | [https://pop.system76.com/](https://pop.system76.com/) |
