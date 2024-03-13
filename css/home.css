@@ -21,6 +21,10 @@ header.masthead .intro-text {
   color: black;
 }
 
+#mainNav {
+  background-color: #218380;
+}
+
 #mainNav.navbar-shrink {
   padding-top: 0;
   padding-bottom: 0;
