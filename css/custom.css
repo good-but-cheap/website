@@ -44,6 +44,11 @@ td {
   padding: 0.25em 1em;
 }
 
+td .img {
+aspect-ratio: auto;
+height: 100%;
+}
+
 tbody tr:nth-child(2n+1) {
   background-color: #f0f0f0;
 }
