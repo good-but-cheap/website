@@ -6,9 +6,9 @@ title: Credits
 
 
 
-Good But Cheap is a creation of
+CritiPicks is a creation of
 
-# The Good But Cheap Team
+# The CritiPicks Team
 
 |||
 | **Website Development** |  	  	| **Website Design** |
@@ -20,7 +20,7 @@ _______________
 
 |||
 
-#### Good But Cheap is made possible by many underlying technologies.
+#### CritiPicks is made possible by many underlying technologies.
 
 |||
 |:--|:--|
@@ -58,7 +58,7 @@ _______________
 |||
 |||
 
-Like many modern websites, Good But Cheap is built on a stack of tools and resources, some so far abstracted that we're not even aware of their necessity.
+Like many modern websites, CritiPicks is built on a stack of tools and resources, some so far abstracted that we're not even aware of their necessity.
 
 > If [we] have seen further it is by standing on the shoulders of giants.<br>
 > -- Isaac Newton, 1675
@@ -71,7 +71,7 @@ __________________
 ||||
 ||||
 
-### Open source software and resources used by Good But Cheap include:
+### Open source software and resources used by CritiPicks include:
 
 | Software | License |
 |:--|:--|
