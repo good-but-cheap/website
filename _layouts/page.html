@@ -70,6 +70,22 @@
 </h3>
       </div>
     </div>
+
+    <div>
+      <ul>
+        {% for item in reviews %}
+        <!--<a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>-->
+          <li>
+          <em>{{ item.title }}</em>
+          {{ item.name }}
+          {{ item.picture }}
+          {{ item.updated }}
+          <br>
+          </li>
+        {% endfor %}
+        </ul>
+    </div>
+
     <div class="row">
 
       <div class="col-md-4 col-sm-6 portfolio-item">
