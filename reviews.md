@@ -1,4 +1,4 @@
 ---
-layout: page
+layout: listing
 title: Recent Reviews
 ---
