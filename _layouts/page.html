@@ -82,6 +82,7 @@
           <li>{{ item.picture }}</li>
           <li>{{ item.updated }}</li>
           <li>{{ item.url }}</li>
+          <li style="color:aqua">{{ item }}</li>
           <br>
         {% endfor %}
         </ul>
@@ -91,13 +92,13 @@
 
       {% for review in site.reviews %}
       <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" href="/review/{{ review.name | slice: 0, -3 }}">
+        <a class="portfolio-link" href="{{review.url}}">
           <img class="img-fluid" src="{{review.picture}}" alt="">
+        </a>
         <div class="portfolio-caption">
           <h4>{{review.title}}</h4>
           <p class="text-muted"></p>
         </div>
-      </a>
       </div>
       {% endfor %}
 
