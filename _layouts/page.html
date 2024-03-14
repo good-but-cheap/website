@@ -93,11 +93,12 @@
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" href="/review/{{ review.name | slice: 0, -3 }}">
           <img class="img-fluid" src="{{review.picture}}" alt="">
-        </a>
         <div class="portfolio-caption">
           <h4>{{review.title}}</h4>
           <p class="text-muted"></p>
         </div>
+      </a>
+      </div>
       {% endfor %}
 
       <div class="col-md-4 col-sm-6 portfolio-item">
