@@ -71,21 +71,6 @@
       </div>
     </div>
 
-    <div>
-      <ul>
-        {% for item in site.reviews %}
-        <!--<a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>-->
-          <li><em>{{ item.title }}</em></li>
-          <li>{{ item.name }}</li>
-          <li>{{ item.name | slice: 0, -3 }}</li>
-          <li>{{ item.picture }}</li>
-          <li>{{ item.updated }}</li>
-          <li>{{ item.url }}</li>
-          <br>
-        {% endfor %}
-        </ul>
-    </div>
-
     <div class="row">
 
       {% for review in site.reviews %}
