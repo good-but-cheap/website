@@ -63,7 +63,7 @@
     </div>
     <div class="row">
     
-      {% for item in page.related %}
+      <!-- {% for item in page.related %}
         <br>This is item: {{item}}<br>
         {% for review in site.reviews %}
 
@@ -82,6 +82,28 @@
               </div>
             </div>
           {% endif %}
+        {% endfor %}
+      {% endfor %}
+
+
+      All products:
+{% for product in products %}
+- {{ product.title }}
+{% endfor %}
+
+{% assign kitchen_products = products | where: "type", "kitchen" %}
+
+Kitchen products:
+{% for product in kitchen_products %}
+- {{ product.title }}
+{% endfor %} -->
+
+      {% for item in page.related %}
+        {% assign review = site.reviews | where: "name", item + ".md" %}
+
+          <p>will show: {{review.url}}</p>
+        
+        
         {% endfor %}
       {% endfor %}
 
