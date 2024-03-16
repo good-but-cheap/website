@@ -2,8 +2,8 @@
   
   <!-- Header -->
   
-  <header class="masthead" style="background-image:url('{{page.picture}}');filter:blur(4px);">
-    <div class="container">
+  <header class="masthead" style="background-image:url('{{page.picture}}');">
+    <div class="container" style="backdrop-filter:blur(4px);">
       <div class="intro-text">
         <div class="intro-heading text-uppercase"><p>{{page.title}}</p></div>
       </div>
@@ -104,7 +104,7 @@ Kitchen products:
           <p>will show: {{review.url}}</p>
         
         
-        {% endfor %}
+        <!-- {% endfor %} -->
       {% endfor %}
 
       <!-- <div class="col-md-4 col-sm-6 portfolio-item">
