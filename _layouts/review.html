@@ -63,13 +63,14 @@
     </div>
     <div class="row">
     
-      <!-- {% for item in page.related %}
-        <br>This is item: {{item}}<br>
+      {% for item in page.related %}
+        <p>This is item: {{item}}</p>
         {% for review in site.reviews %}
 
-        <p>{{review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" | split: " "}} :: {{item | split: "-"}}</p>
+        <p>{{review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" | split: " "}}</p>
+        <p>{{item | split: "-"}}</p>
         
-        <br>
+        <!-- <br>
           {% if review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" | split: " " == item | split: "-" %}
 
             <div class="col-md-4 col-sm-6 portfolio-item">
@@ -80,13 +81,13 @@
                 <h4>From the template {{review.title}}</h4>
                 <p class="text-muted"></p>
               </div>
-            </div>
+            </div> -->
           {% endif %}
         {% endfor %}
       {% endfor %}
 
 
-      All products:
+      <!--All products:
 {% for product in products %}
 - {{ product.title }}
 {% endfor %}
@@ -98,14 +99,13 @@ Kitchen products:
 - {{ product.title }}
 {% endfor %} -->
 
-      {% for item in page.related %}
+      <!-- {% for item in page.related %}
         {% assign review = site.reviews | where: "name", item + ".md" %}
 
           <p>will show: {{review.url}}</p>
         
         
-        <!-- {% endfor %} -->
-      {% endfor %}
+      {% endfor %} -->
 
       <!-- <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" href="/review/USB-C-Laptop-Docks">
