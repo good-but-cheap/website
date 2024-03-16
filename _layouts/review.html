@@ -67,20 +67,20 @@
         <br>This is item: {{item}}<br>
         {% for review in site.reviews %}
 
-        <p>{{review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" }} :: {{item}} == {% if review.name == item %} True {% else %} False {% endif %}</p>
+        <p>{{review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" | split: " "}} :: {{item | split: "-"}}</p>
         
         <br>
-      {% if review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" == item %}
+          {% if review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" | split: " " == item | split: "-" %}
 
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" href="{{review.url}}">
-          <img class="img-fluid" src="{{review.picture}}" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>From the template {{review.title}}</h4>
-          <p class="text-muted"></p>
-        </div>
-      </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+              <a class="portfolio-link" href="{{review.url}}">
+                <img class="img-fluid" src="{{review.picture}}" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>From the template {{review.title}}</h4>
+                <p class="text-muted"></p>
+              </div>
+            </div>
           {% endif %}
         {% endfor %}
       {% endfor %}
