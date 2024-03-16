@@ -64,6 +64,13 @@
     <div class="row">
     
       {% for item in page.related %}
+
+      {% if "A" == "A" %}
+      <p> "A"s are equal</p>
+      {% else %}
+      <p> "A"s are different</p>
+      {% endif %}
+
       <div class="col-md-4 col-sm-6 portfolio-item">
         <p>This is item: {{item}}</p>
         {% for review in site.reviews %}
