@@ -67,8 +67,20 @@
         <p>This is item: {{item}}</p>
         {% for review in site.reviews %}
 
-        <p>{{review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" | split: " "}}</p>
-        <p>{{item | split: "-"}}</p>
+        <!-- <p>{{review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" | split: " "}}</p>
+        <p>{{item | split: "-"}}</p> -->
+
+        {% assign one =  review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" | split: " " %}
+        {% assign two = item | split: "-" %}
+
+        <p>{{one}}</p>
+        <p>{{two}}</p>
+
+        {% if one == two %}
+        <p> are equal</p>
+        {% else %}
+        <p> are different</p>
+        {% endif %}
         
         <!-- <br>
           {% if review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" | split: " " == item | split: "-" %}
@@ -82,9 +94,11 @@
                 <p class="text-muted"></p>
               </div>
             </div> -->
-          {% endif %}
+          <!-- {% endif %} -->
         {% endfor %}
       {% endfor %}
+
+      <div>done</div>
 
 
       <!--All products:
