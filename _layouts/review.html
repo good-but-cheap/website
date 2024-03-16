@@ -2,7 +2,7 @@
   
   <!-- Header -->
   
-  <header class="masthead">
+  <header class="masthead" style="background-image:url('{{page.picture}}');filter:blur(2rem);">
     <div class="container">
       <div class="intro-text">
         <div class="intro-heading text-uppercase"><p>{{page.title}}</p></div>
@@ -64,22 +64,20 @@
     <div class="row">
     
       {% for item in page.related %}
+        <hr>This is an item, it's name is: {{item.name}}
         {% for review in site.reviews %}
-
-
-        {{ "Ground control to Major Tom." | split: "" | reverse | join: "" }}
 
         <p>{{review.name | split: "" | reverse | remove_first: "dm." | reverse | join: "" }} :: {{item}} == {% if review.name == item %} True {% endif %}</p>
         
         
-          {% if review.name | split: "" | reverse | remove_first: "dm." | reverse | join: "" == item %}
+      {% if review.name | split: "" | reverse | remove_first: "dm." | reverse | join: "" == item %}
 
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" href="{{review.url}}">
           <img class="img-fluid" src="{{review.picture}}" alt="">
         </a>
         <div class="portfolio-caption">
-          <h4>{{review.title}}</h4>
+          <h4>From the template {{review.title}}</h4>
           <p class="text-muted"></p>
         </div>
       </div>
