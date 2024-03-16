@@ -73,7 +73,7 @@
 
         <!-- {% assign one =  review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" | split: " " %} -->
         {% assign one = review.name %}
-        {% assign two = item | split: "-" %}
+        {% assign two = item | split: "-" | append: ".md" %}
 
         <p>{{one}}</p>
         <p>{{two}}</p>
