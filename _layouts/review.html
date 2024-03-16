@@ -64,13 +64,15 @@
     <div class="row">
     
       {% for item in page.related %}
+      <div class="col-md-4 col-sm-6 portfolio-item">
         <p>This is item: {{item}}</p>
         {% for review in site.reviews %}
 
         <!-- <p>{{review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" | split: " "}}</p>
         <p>{{item | split: "-"}}</p> -->
 
-        {% assign one =  review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" | split: " " %}
+        <!-- {% assign one =  review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" | split: " " %} -->
+        {% assign one = review.name %}
         {% assign two = item | split: "-" %}
 
         <p>{{one}}</p>
@@ -96,6 +98,7 @@
             </div> -->
           <!-- {% endif %} -->
         {% endfor %}
+        </div>
       {% endfor %}
 
       <div>done</div>
