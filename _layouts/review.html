@@ -19,7 +19,7 @@
 	
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">{{page.title}}</h2>
+          <!-- <h2 class="section-heading text-uppercase">{{page.title}}</h2> -->
           
 		  <h3 class="section-subheading text-muted">Updated {{page.updated}}</h3>
 		  
@@ -66,7 +66,7 @@
       {% for item in page.related %}
         {% for review in site.reviews %}
 
-        <p>{{review.name}} {{review.url}} :: {{page.related}} == {{review.name == item}}</p>
+        <p>{{review.name | slice -3 }} :: {{item}} == {% if review.name == item %} True {% endif %}</p>
         
         
           {% if review.name == item %}
