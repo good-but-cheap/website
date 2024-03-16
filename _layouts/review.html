@@ -66,10 +66,13 @@
       {% for item in page.related %}
         {% for review in site.reviews %}
 
-        <p>{{review.name | slice -3 }} :: {{item}} == {% if review.name == item %} True {% endif %}</p>
+
+        {{ "Ground control to Major Tom." | split: "" | reverse | join: "" }}
+
+        <p>{{review.name | split: "" | reverse | remove_first: "dm." | reverse | join: "" }} :: {{item}} == {% if review.name == item %} True {% endif %}</p>
         
         
-          {% if review.name == item %}
+          {% if review.name | split: "" | reverse | remove_first: "dm." | reverse | join: "" == item %}
 
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" href="{{review.url}}">
