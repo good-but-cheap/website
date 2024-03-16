@@ -65,7 +65,12 @@
     
       {% for item in page.related %}
         {% for review in site.reviews %}
+
+        <p>{{review.name}} {{review.url}} :: {{page.related}} == {{review.name == item}}</p>
+        
+        
           {% if review.name == item %}
+
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" href="{{review.url}}">
           <img class="img-fluid" src="{{review.picture}}" alt="">
