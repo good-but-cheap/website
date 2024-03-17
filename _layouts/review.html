@@ -82,8 +82,8 @@
         {% assign one = review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" %}
         {% assign two = item | split: "-" %}
 
-        <p>{{one + ".a" }}</p>
-        <p>{{two + ".a" }}</p>
+        <p>{{one | append: ".a" }}</p>
+        <p>{{two | append: ".a" }}</p>
 
         {% if one == two %}
         <p> are equal</p>
