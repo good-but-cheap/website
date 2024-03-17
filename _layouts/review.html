@@ -79,11 +79,14 @@
         <p>{{item | split: "-"}}</p> -->
 
         <!-- {% assign one =  review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" | split: " " %} -->
-        {% assign one = review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" %}
-        {% assign two = item %}
+        <!-- {% assign one = review.name | split: "" | reverse | join: "" | remove_first: "dm." | split: "" | reverse | join: "" %}
+        {% assign two = item %} -->
 
-        <p>{{one | append: ".a" }}</p>
-        <p>{{two | append: ".a" }}</p>
+        {% assign one = review.name %}
+        {% assign two = item | append: ".md" %}
+
+        <p>{{one }}</p>
+        <p>{{two }}</p>
 
         {% if one == two %}
         <p> are equal</p>
