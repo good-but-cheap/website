@@ -69,9 +69,6 @@
         {% assign one = review.name %}
         {% assign two = item | append: ".md" %}
 
-        <p>{{one }}</p>
-        <p>{{two }}</p>
-
         {% if one == two %}
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" href="{{review.url}}">
