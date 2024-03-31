@@ -55,8 +55,8 @@ __________________
 
 Like many modern websites, CritiPicks is built on a stack of tools and resources, some so far abstracted that we're not even aware of their necessity.
 
-> If [we] have seen further it is by standing on the shoulders of giants.<br>
-> -- Isaac Newton, 1675
+> The future never just happened. It was created.<br>
+> -- Mae Jemison, 2019
 __________________
 
 
