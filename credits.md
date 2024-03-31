@@ -23,7 +23,7 @@ _______________
 | with contributions from | [Ramon Benitez-Pagan](https://github.com/rbenitezpagan), [MiUPRB Web Services](https://github.com/miuprb), [Sergey Morozov](https://github.com/morozgrafix), [Miroslav Suchý](https://github.com/xsuchy), [Michael Currin](https://github.com/MichaelCurrin), [bkfirmen](https://github.com/bkfirmen), [Zhang Xiawei](https://github.com/shou1dwe), and [Brian](https://github.com/bheithaus) |
 | [**Jekyll**](https://jekyllrb.com/) | by the [Jekyll Core Team](https://jekyllrb.com/team/) |
 | [**Bootstrap**](https://getbootstrap.com/) | by  [twbs](https://github.com/twbs), and [many contributors](https://github.com/twbs/bootstrap/graphs/contributors) |
-| [**Ruby Gems**](https://rubygems.org/) | by [Nick Quaranto](https://rubygems.org/pages/about), [and others](https://rubygems.org/pages/about) |
+| [**Ruby Gems**](https://rubygems.org/) | by [Nick Quaranto](https://rubygems.org/pages/about), and [others](https://rubygems.org/pages/about) |
 | [**Ruby**](https://www.ruby-lang.org/en/) | by [Yukihiro “Matz” Matsumoto](http://www.rubyist.net/~matz/), and [many other contributors](https://github.com/ruby/ruby/graphs/contributors) |
 | [**Git**](https://git-scm.com/) | by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), and [many other contributors](https://github.com/git/git/graphs/contributors) |
 | [**GitHub**](https://github.com/) | by [GitHub](https://github.com/about/leadership) |
