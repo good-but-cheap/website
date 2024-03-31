@@ -49,7 +49,7 @@ __________________
 
 ### Open source software and resources used by CritiPicks include:
 
-|||
+
 | Software | License |
 |:--|:--|
 | Ruby Gems | [MIT License](https://github.com/rubygems/rubygems.org/blob/master/MIT-LICENSE) |
@@ -62,8 +62,8 @@ __________________
 _______________
 
 ##### Additional development tools include
-|||
-| Software | |
+
+| Software |  |
 |:--|:--|
 | Visual Studio Code | [https://code.visualstudio.com/](https://code.visualstudio.com/) | 
 | Linux | [https://www.kernel.org/](https://www.kernel.org/) |
