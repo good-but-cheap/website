@@ -43,8 +43,11 @@ blockquote p {
   text-align: center;
 }
 
-.review table {
+table {
   margin: 0 auto;
+}
+
+.review table {
   font-size: xx-large;
 }
 
