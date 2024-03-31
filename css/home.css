@@ -1,9 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One');
+
 header.masthead{
-    background-image:url("../img/vadim-sherbakov-tCICLJ5ktBE-unsplash.jpg");
+    background-image:url("../img/gridobjects.jpg");
 }
 
 header.masthead .intro-text {
   text-shadow: 0px 1px 5px #212529CC;
+}
+
+#mainNav .navbar-brand {
+  font-size: 3.75em;
+  font-family: "Fjalla One", sans-serif, system;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #faca16;
+}
+
+#mainNav .logoblack {
+  color: black;
+}
+
+#mainNav.navbar-shrink {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #218380;
 }
 
 .nav-link {

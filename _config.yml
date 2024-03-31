@@ -1,12 +1,12 @@
-# Jekyll config for good.but.cheap
+# Jekyll config for CritiPicks.com
 # based on the Agency theme
 
-url: "https://good.but.cheap"
+url: "https://critipicks.com"
 
-title: Good But Cheap
-email: contact@good.but.cheap
-description: Reviews, with a focus on adequacy!
-author: The Good But Cheap Team
+title: CritiPicks
+email: contact@critipicks.com
+description: CritiPicks Product Recommendations
+author: The CritiPicks Team
 
 collections:
   reviews:

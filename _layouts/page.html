@@ -13,6 +13,7 @@
   <!-- End Header -->
 
 <!-- Content -->
+  {% if content %}
 
   <section class="page-section" id="services">
     <div class="container">
@@ -56,6 +57,8 @@
     </div>
   </section>
 
+  {% endif %}
+
 <!-- End Services -->
 
 <!-- Top Review Grid -->
@@ -70,8 +73,32 @@
 </h3>
       </div>
     </div>
+
     <div class="row">
-    
+
+      {% for review in site.reviews %}
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="{{review.url}}">
+          <img class="img-fluid" src="{{review.picture}}" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>{{review.title}}</h4>
+          <p class="text-muted"></p>
+        </div>
+      </div>
+      {% endfor %}
+
+      <!--
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" href="/review/babygyms">
+          <img class="img-fluid" src="/img/reviews/" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Baby Gyms</h4>
+          <p class="text-muted"></p>
+        </div>
+      </div>
+	    
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" href="/review/USB-C-Laptop-Docks">
           <img class="img-fluid" src="/img/reviews/chub.png" alt="">
@@ -84,7 +111,7 @@
     
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" href="/review/coolers">
-          <img class="img-fluid" src="/img/reviews/cooler.png" alt="">
+          <img class="img-fluid" src="/img/reviews/coolers/cooler.png" alt="">
         </a>
         <div class="portfolio-caption">
           <h4>Coolers</h4>
@@ -100,7 +127,7 @@
           <h4>Hard Drives</h4>
           <p class="text-muted"></p>
         </div>
-      </div>
+      </div>-->
     
     </div>
   </div>
