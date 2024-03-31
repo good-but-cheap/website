@@ -57,6 +57,7 @@ Like many modern websites, CritiPicks is built on a stack of tools and resources
 
 > The future never just happened. It was created.<br>
 > -- Mae Jemison, 2019
+> 
 __________________
 
 
