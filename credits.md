@@ -20,15 +20,7 @@ _______________
 |:--|:--|
 | [**Agency Theme**](https://github.com/startbootstrap/startbootstrap-agency) 	| by [Start Bootstrap](https://startbootstrap.com/theme/agency) |
 | [**Agency Jekyll Theme**](https://github.com/raviriley/agency-jekyll-theme) | by [Ravi](https://github.com/raviriley) 
-|| with contributions from |
-|| [Ramon Benitez-Pagan](https://github.com/rbenitezpagan) |
-|| [MiUPRB Web Services](https://github.com/miuprb) |
-|| [Sergey Morozov](https://github.com/morozgrafix) |
-|| [Miroslav Suchý](https://github.com/xsuchy) |
-|| [Michael Currin](https://github.com/MichaelCurrin) |
-|| [bkfirmen](https://github.com/bkfirmen) |
-|| [Zhang Xiawei](https://github.com/shou1dwe) |
-|| and [Brian](https://github.com/bheithaus) |
+| with contributions from | [Ramon Benitez-Pagan](https://github.com/rbenitezpagan) [MiUPRB Web Services](https://github.com/miuprb)| [Sergey Morozov](https://github.com/morozgrafix) | [Miroslav Suchý](https://github.com/xsuchy) | [Michael Currin](https://github.com/MichaelCurrin) | [bkfirmen](https://github.com/bkfirmen) | [Zhang Xiawei](https://github.com/shou1dwe) | and [Brian](https://github.com/bheithaus) |
 | [**Jekyll**](https://jekyllrb.com/) | by the [Jekyll Core Team](https://jekyllrb.com/team/) |
 | [**Bootstrap**](https://getbootstrap.com/) | by  [twbs](https://github.com/twbs) |
 || [and many contributors](https://github.com/twbs/bootstrap/graphs/contributors) |
@@ -43,7 +35,10 @@ _______________
 | [**Visual Studio Code**](https://code.visualstudio.com/) | by [Microsoft](https://www.microsoft.com/) |
 
 
+__________________
+
 ### Special thanks to 
+
 
 |:--|:--|
 | Paul Baran, Vint Cerf, Danny Cohen, Steve Crocker, Donald Davies, Elizabeth J. Feinler, Charles Herzfeld, Robert Kahn, Peter Kirstein, Leonard Kleinrock, John Klensin, Jon Postel, Louis Pouzin, Lawrence Roberts, Mitchell Baker, Tim Berners-Lee, Robert Cailliau, Van Jacobson, Lawrence Landweber, Paul Mockapetris, Craig Newmark, Raymond Tomlinson, Linus Torvalds, Philip Zimmermann, Randy Bush,Kilnam Chon, Al Gore, Nancy Hafkin, Geoff Huston, Brewster Kahle, Daniel Karrenberg, Toru Takahashi, and Tan Tin Wee | For their contributions as Pioneers, Innovators, and Global Connectors to the World Wide Web, TCP/IP, and many other Internet technologies  |
