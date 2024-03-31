@@ -14,6 +14,18 @@ title: Credits
 
 _______________
 
+#### Most Importantly,
+
+Thanks to those who share their opinions online (yes, really).
+
+A review, a blog post, a comment. Obsessing over the details of a rumor for a product yet to be revealed...
+
+It all contributes to the river of information that lets us find and select products to review.
+
+Stay weird, Internet.
+
+_______________
+
  CritiPicks is made possible by many underlying technologies.
 
 |||
@@ -85,14 +97,3 @@ We would not have productions to review without the "makers of things". Thanks t
 
 
 ____________________
-
-
-#### Finally,
-
-Thanks to those who share their opinions online (yes, really).
-
-A review, a blog post, a comment. Obsessing over the details of a rumor for a product yet to be revealed...
-
-It all contributes to the river of information that lets us find and select products to review.
-
-Stay weird, Internet.
