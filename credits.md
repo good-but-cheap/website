@@ -43,16 +43,17 @@ __________________
 |:--|:--|
 | Paul Baran, Vint Cerf, Danny Cohen, Steve Crocker, Donald Davies, Elizabeth J. Feinler, Charles Herzfeld, Robert Kahn, Peter Kirstein, Leonard Kleinrock, John Klensin, Jon Postel, Louis Pouzin, Lawrence Roberts, Mitchell Baker, Tim Berners-Lee, Robert Cailliau, Van Jacobson, Lawrence Landweber, Paul Mockapetris, Craig Newmark, Raymond Tomlinson, Linus Torvalds, Philip Zimmermann, Randy Bush,Kilnam Chon, Al Gore, Nancy Hafkin, Geoff Huston, Brewster Kahle, Daniel Karrenberg, Toru Takahashi, and Tan Tin Wee | For their contributions as Pioneers, Innovators, and Global Connectors to the World Wide Web, TCP/IP, and many other Internet technologies  |
 
-|||
+
 Like many modern websites, CritiPicks is built on a stack of tools and resources, some so far abstracted that we're not even aware of their necessity.
-|||
+
 > If [we] have seen further it is by standing on the shoulders of giants.<br>
 > -- Isaac Newton, 1675
 __________________
 
-|||
+
 ### Open source software and resources used by CritiPicks include:
 
+|||
 | Software | License |
 |:--|:--|
 | Ruby Gems | [MIT License](https://github.com/rubygems/rubygems.org/blob/master/MIT-LICENSE) |
