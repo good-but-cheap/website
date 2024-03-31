@@ -5,20 +5,14 @@ title: Credits
 
 
 
-
-CritiPicks is a creation of
+#### CritiPicks is a creation of
 
 # The CritiPicks Team
 
-|||
-| **Website Development** |  	  	| **Website Design** |
-| **Review Editorial Board** | 	  	| **Review Writers** |
-|  | **Affiliate Team** | |
-|||
+| **Website Development** | **Website Design** |
+| **Review Writers** | **Affiliate Team** |
 
 _______________
-
-|||
 
 #### CritiPicks is made possible by many underlying technologies.
 
@@ -47,29 +41,19 @@ _______________
 | [**GitHub**](https://github.com/) | by [GitHub](https://github.com/about/leadership) |
 | [**GitHub Pages**](https://pages.github.com/) | by [GitHub](https://github.com/about/leadership) |
 | [**Visual Studio Code**](https://code.visualstudio.com/) | by [Microsoft](https://www.microsoft.com/) |
-|  |  |
-|  |  |
+
 
 ### Special thanks to 
 
-|  |  |
 |:--|:--|
 | Paul Baran, Vint Cerf, Danny Cohen, Steve Crocker, Donald Davies, Elizabeth J. Feinler, Charles Herzfeld, Robert Kahn, Peter Kirstein, Leonard Kleinrock, John Klensin, Jon Postel, Louis Pouzin, Lawrence Roberts, Mitchell Baker, Tim Berners-Lee, Robert Cailliau, Van Jacobson, Lawrence Landweber, Paul Mockapetris, Craig Newmark, Raymond Tomlinson, Linus Torvalds, Philip Zimmermann, Randy Bush,Kilnam Chon, Al Gore, Nancy Hafkin, Geoff Huston, Brewster Kahle, Daniel Karrenberg, Toru Takahashi, and Tan Tin Wee | For their contributions as Pioneers, Innovators, and Global Connectors to the World Wide Web, TCP/IP, and many other Internet technologies  |
-|||
-|||
+
 
 Like many modern websites, CritiPicks is built on a stack of tools and resources, some so far abstracted that we're not even aware of their necessity.
 
 > If [we] have seen further it is by standing on the shoulders of giants.<br>
 > -- Isaac Newton, 1675
-
-|||
-
 __________________
-
-
-||||
-||||
 
 ### Open source software and resources used by CritiPicks include:
 
@@ -81,8 +65,7 @@ __________________
 | Bootstrap Agency Theme | [MIT License](https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
 | Jekyll | [MIT License](https://github.com/jekyll/jekyll/blob/master/LICENSE) |
 | Bootstrap | [MIT License](https://github.com/twbs/bootstrap/blob/main/LICENSE) |
-|||
-|||
+
 
 ##### Additional development tools include
 
@@ -96,11 +79,8 @@ __________________
 | JavaScript | [https://www.ecma-international.org/](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/) |
 | Cascading Style Sheets | [https://www.w3.org/TR/CSS/](https://www.w3.org/TR/CSS/) |
 
-
-
 _____________
 
-|||
 
 #### Thank you to
 
@@ -109,12 +89,9 @@ _____________
 
 We would not have productions to review without the "makers of things". Thanks to all the companies, and the many, many people within them, who make the products we recommend. It would be a less prosperous and free world without your efforts.
 
-|||
 
 ____________________
 
-
-|||
 
 #### Finally,
 
