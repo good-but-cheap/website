@@ -59,6 +59,7 @@ __________________
 | Jekyll | [MIT License](https://github.com/jekyll/jekyll/blob/master/LICENSE) |
 | Bootstrap | [MIT License](https://github.com/twbs/bootstrap/blob/main/LICENSE) |
 
+_______________
 
 ##### Additional development tools include
 |||
