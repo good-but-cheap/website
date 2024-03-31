@@ -94,7 +94,7 @@ _____________
 > the risk-takers, the doers, the makers of things ... who have carried us up the long, rugged path toward prosperity and freedom.<br>
 > -- Barack Obama, Inaugural Address, 2009
 
-We would not have productions to review without the "makers of things". Thanks to all the companies, and the many, many people within them, who make the products we recommend. It would be a less prosperous and free world without your efforts.
+We would not have productions to review without the "makers of things". Thank you to the women, who often go uncredited for their contributions, we see you and appreciate you. It would be a less prosperous and free world without your efforts.
 
 
 ____________________
