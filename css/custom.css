@@ -48,6 +48,11 @@ table {
   font-size: xx-large;
 }
 
+#services table {
+  margin: 0 auto;
+  font-size: large;
+}
+
 a {
   color: #f7bf00;
 }
