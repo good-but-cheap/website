@@ -5,7 +5,7 @@ title: Credits
 
 
 
-#### CritiPicks is a creation of
+ CritiPicks is a creation of
 
 # The CritiPicks Team
 
@@ -14,7 +14,7 @@ title: Credits
 
 _______________
 
-#### CritiPicks is made possible by many underlying technologies.
+ CritiPicks is made possible by many underlying technologies.
 
 |||
 |:--|:--|
