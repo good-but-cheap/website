@@ -26,6 +26,7 @@ Stay weird, Internet.
 
 _______________
 
+
  CritiPicks is made possible by many underlying technologies.
 
 |||
