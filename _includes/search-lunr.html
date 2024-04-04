@@ -6,6 +6,7 @@ var documents = [{% for page in site.reviews %}{% if page.url contains '.xml' or
     "id": {{ counter }},
     "url": "{{ site.url }}{{ page.url }}",
     "title": "{{ page.title }}",
+    "picture": "{{ page.picture }}",
     "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
     }, {% endif %}{% endfor %}{% for page in site.without-plugin %}{
     "id": {{ counter }},
@@ -23,7 +24,6 @@ var idx = lunr(function () {
     this.ref('id')
     this.field('title')
     this.field('body')
-    this.field('picture')
 
     documents.forEach(function (doc) {
         this.add(doc)
