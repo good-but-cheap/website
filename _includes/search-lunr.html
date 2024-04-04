@@ -46,7 +46,7 @@ function lunr_search(term) {
                 var body = documents[ref]['body'].substring(0,160)+'...';
                 var image = documents[ref]['picture'];
                 var slug = documents[ref]['body'].substring(0,100);
-                slug = slug.split(':: ')[1]
+                slug = slug.split(':: ')[2]
                 document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><span class='body'>"+ body +"</span><br /><p>" + image + "</p><p>" + slug + "</p><br /><span class='url'>"+ url +"</span></a></li>";
             }
         } else {
