@@ -46,7 +46,8 @@ function lunr_search(term) {
                 var body = documents[ref]['body'].substring(0,160)+'...';
                 var image = documents[ref]['picture'];
                 var slug = documents[ref]['body'].toString().split(':: ')[1].substring(0,160)+'...';
-                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><span class='body'>"+ body +"</span><br /><p>" + image + "</p><p>" + slug + "</p><br /><span class='url'>"+ url +"</span></a></li>";
+                var goodstuff = "<div class='searchresult'><div class='searchimagecontainer'><img src='" + picture + "' style='width:100px; height:100px'></div><div class='searchdetailscontainer'><span class='title'>" + title + "</span><br /><span class='body'>"+ body +"</span><br /><p>" + image + "</p><p>" + slug + "</p><br /><span class='url'>"+ url +"</span></a></div></div>"
+                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'>" + goodstuff + "</li>";
             }
         } else {
             document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>No results found...</li>";
@@ -63,6 +64,9 @@ function lunr_search(term) {
     .lunrsearchresult a {display: block; color: #777;}
     .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
     .lunrsearchresult a:hover .title {text-decoration: underline;}
+    .searchresult {
+        display: flex;
+    }
 </style>
 
 
