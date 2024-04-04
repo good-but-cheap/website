@@ -7,7 +7,7 @@ var documents = [{% for page in site.reviews %}{% if page.url contains '.xml' or
     "url": "{{ site.url }}{{ page.url }}",
     "title": "{{ page.title }}",
     "picture": "{{ page.picture }}",
-    "tags": "{{ page.tags }}",
+    "tags": "{{ page.tags | markdownify | strip_html | strip_newlines }}",
     "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
     }, {% endif %}{% endfor %}{% for page in site.without-plugin %}{
     "id": {{ counter }},
@@ -63,7 +63,7 @@ function lunr_search(term) {
 <style>
     #lunrsearchresults {padding-top: 0.2rem;}
     .lunrsearchresult {padding-bottom: 1rem;}
-    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .title {color: #218380;}
     .lunrsearchresult .url {color: silver;}
     .lunrsearchresult a {display: block; color: #777;}
     .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
