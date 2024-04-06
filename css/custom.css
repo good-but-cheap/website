@@ -78,5 +78,5 @@ tbody tr:nth-child(2n+1) {
 }
 
 .no-bottom-margin {
-  margin-bottom: 1em;
+  margin-bottom: 1em !important;
 }
