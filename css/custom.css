@@ -76,3 +76,7 @@ tbody tr:nth-child(2n+1) {
 #mainNav {
     background-color: #218380;
 }
+
+.no-bottom-margin {
+  margin-bottom: 1em;
+}
