@@ -51,10 +51,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/reviews">Reviews</a></li>        
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/reviews">Reviews</a></li>  
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/categories">Categories</a></li>  
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/lists">Lists</a></li>   
+          
+          <form onSubmit="lunrsearchresults.showModal();lunrsearchresults.addEventListener('click',function(e) {if (e.target.id === 'lunrsearchresults') {lunrsearchresults.close();}}); lunr_search(document.getElementById('lunrsearch').value);">
+            <p><input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search Reviews" /></p>
+          </form>
         
         </ul>
       </div>
+      <dialog id="lunrsearchresults">
+        <ul></ul>
+      </dialog>
     </div>
   </nav>
   <!-- End Navigation -->
