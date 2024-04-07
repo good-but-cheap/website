@@ -80,3 +80,7 @@ tbody tr:nth-child(2n+1) {
 .no-bottom-margin {
   margin-bottom: 1em !important;
 }
+
+
+.navsearchform {padding-left: 1ch;}
+.navbar-nav ul {align-items: baseline;}
