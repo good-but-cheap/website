@@ -27,14 +27,12 @@
       {% assign alltags = "" %}
 
       {% for review in site.reviews %}
-        {{ review.tags }}
         {% assign alltags = alltags | concat: review.tags %}
       {% endfor %}
-      alltags: {{ alltags }}
 
       {% assign alltags = alltags | uniq %}
       {% for tag in alltags %}
-        <h2 style="display: inline-block"><a onclick="showtag({{tag}})">Tag: {{ tag }} </a></h2>
+        <h2 style="display: inline-block"><a href='#' onclick="showtag('{{tag}}');return false;">{{ tag }} </a></h2>
       {% endfor %}
 
       <h3 id="selected-tag-name"></h3>
