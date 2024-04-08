@@ -23,27 +23,14 @@
     </div>
 
     <div class="row">
-
-      {% assign alltags = "" %}
-
-      {% for review in site.reviews %}
-        {% assign alltags = alltags | concat: review.tags %}
-      {% endfor %}
-      <p>before: {{ alltags }}</p>
-      <p>uniq: {{ alltags | uniq }}</p>
-      <p>join: {{ alltags | uniq | join " and " }}</p>
-      <p>compact: {{ alltags | uniq | compact }}</p>
-
-      {% assign alltags = alltags | uniq | join: ';' | strip | split: ';' | compact %}
-
       {% assign alltags = site.reviews | map: 'tags' | uniq %}
 
-      <p>after: {{alltags}}</p>
       {% for tag in alltags %}
         <h2 style="display: inline-block"><a href='#' onclick="showtag('{{tag}}');return false;">{{ tag }} &nbsp;</a></h2> 
       {% endfor %}
 
       <h3 id="selected-tag-name"></h3>
+      
       {% for review in site.reviews %}
       <div class="tag 
       {% for tag in review.tags %}
@@ -71,7 +58,7 @@
         {% for t in alltags %}
         document.getElementsByClassName('tag-{{ t }}').style.display = "none";
         {% endfor %}
-        document.getElementsByClassName('tag-' + tag).style.display = "block";
+        document.getElementsByClassName('tag-' + tag).style.display = "block !important";
         document.getElementById('selected-tag-name').innerHTML= tag
     }
 </script>
