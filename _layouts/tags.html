@@ -31,8 +31,9 @@
       {% endfor %}
       <p>before: {{ alltags }}</p>
       <p>uniq: {{ alltags | uniq }}</p>
-      <p>join: {{ alltags | uniq | join " ; " }}</p>
+      <p>join: {{ alltags | uniq | join " and " }}</p>
       <p>compact: {{ alltags | uniq | compact }}</p>
+      
       {% assign alltags = alltags | uniq | join: ';' | strip | split: ';' | compact %}
       <p>after: {{alltags}}</p>
       {% for tag in alltags %}
