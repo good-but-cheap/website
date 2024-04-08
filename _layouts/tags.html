@@ -28,7 +28,9 @@
 
       {% for review in site.reviews %}
         {{ review.tags }}
+        {% assign alltags = alltags | concat: review.tags}
       {% endfor %}
+      {{alltags}}
 
 
       alltags: {{ alltags }}
