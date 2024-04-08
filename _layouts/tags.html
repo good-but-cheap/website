@@ -24,7 +24,18 @@
 
     <div class="row">
 
+      {% assign alltags = "" %}
+      {% for review in site.reviews %}
+      {{ review.tags }}<br>
+      {% assign alltags = alltags | concat: review.tags }
+      {{ alltags }}<br>
+      {% endfor %}
+      alltags: {{ alltags }}
 
+      {% assign alltags = alltags | uniq %}
+      {% for tag in alltags %}
+        <h2 style="display: inline-block"><a onclick="showtag({{tag}},{{alltags}})">Tag: {{ tag }} </a></h2>
+      {% endfor %}
 
       <h3 id="selected-tag-name"></h3>
       {% for review in site.reviews %}
@@ -49,6 +60,14 @@
   </div>
 </section>
 
-
+<script>
+    function showtag(tag,alltags) {
+        {% for t in alltags %}
+        document.getElementsByClassName('tag-{{ t }}').style.display = "none";
+        {% endfor %}
+        document.getElementsByClassName('tag-' + tag).style.display = "block";
+        document.getElementById('selected-tag-name').innerHTML= tag
+    }
+</script>
 
 {% include pagefooter.html %}
