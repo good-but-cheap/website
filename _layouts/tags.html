@@ -34,7 +34,23 @@
       {% endfor %}
 
       <h3 id="selected-tag-name"></h3>
-
+      {% for review in site.reviews %}
+      <div class="tag 
+      {% for tag in review.tags %}
+        tag-{{ tag }} 
+      {% endfor %}
+      ">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" href="{{review.url}}">
+            <img class="img-fluid" src="{{review.picture}}" alt="">
+            </a>
+            <div class="portfolio-caption">
+            <h4>{{review.title}}</h4>
+            <p class="text-muted"></p>
+            </div>
+        </div>
+      </div>
+      {% endfor %}
 
     </div>
   </div>
@@ -42,9 +58,7 @@
 
 <script>
     function showtag(tag,alltags) {
-        {% for t in alltags %}
-        document.getElementsByClassName('tag-{{ t }}').style.display = "none";
-        {% endfor %}
+
         document.getElementsByClassName('tag-' + tag).style.display = "block";
         document.getElementById('selected-tag-name').innerHTML= tag
     }
