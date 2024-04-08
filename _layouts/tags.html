@@ -26,6 +26,11 @@
 
       {% assign alltags = "" %}
 
+      {% for review in site.reviews %}
+        {{ review.tags }}
+      {% endfor %}
+
+
       alltags: {{ alltags }}
 
       {% assign alltags = alltags | uniq %}
