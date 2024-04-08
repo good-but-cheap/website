@@ -26,8 +26,11 @@
 
       {% assign alltags = "" %}
 
+      alltags: {{ alltags }}
+
+      {% assign alltags = alltags | uniq %}
       {% for tag in alltags %}
-        <h2 style="display: inline-block"><a onclick="showtag({{tag}])">Tag: {{ tag }} </a></h2>
+        <h2 style="display: inline-block"><a onclick="showtag({{tag}})">Tag: {{ tag }} </a></h2>
       {% endfor %}
 
       <h3 id="selected-tag-name"></h3>
