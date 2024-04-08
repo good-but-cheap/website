@@ -33,8 +33,11 @@
       <p>uniq: {{ alltags | uniq }}</p>
       <p>join: {{ alltags | uniq | join " and " }}</p>
       <p>compact: {{ alltags | uniq | compact }}</p>
-      
+
       {% assign alltags = alltags | uniq | join: ';' | strip | split: ';' | compact %}
+
+      {% assign alltags = site.reviews | map: 'tags' | uniq %}
+
       <p>after: {{alltags}}</p>
       {% for tag in alltags %}
         <h2 style="display: inline-block"><a href='#' onclick="showtag('{{tag}}');return false;">{{ tag }} &nbsp;</a></h2> 
