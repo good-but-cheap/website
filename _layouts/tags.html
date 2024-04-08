@@ -55,11 +55,13 @@
 
 <script>
     function showtag(tag) {
-        {% for t in alltags %}
-        document.getElementsByClassName('tag-{{ t }}').style.display = "none";
-        {% endfor %}
-        document.getElementsByClassName('tag-' + tag).style.display = "block !important";
-        document.getElementById('selected-tag-name').innerHTML= tag
+      for (item in document.getElementsByClassName('tag')){
+        item.style.display = 'none';
+      }
+      for (item in document.getElementsByClassName('tag-' + tag)){
+        item.style.display = 'block'
+      }
+      document.getElementById('selected-tag-name').innerHTML= tag
     }
 </script>
 
