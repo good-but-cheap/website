@@ -55,10 +55,10 @@
 
 <script>
     function showtag(tag) {
-      for (item in document.getElementsByClassName('tag')){
+      for (const item in document.getElementsByClassName('tag')){
         item.style.display = 'none';
       }
-      for (item in document.getElementsByClassName('tag-' + tag)){
+      for (const item in document.getElementsByClassName('tag-' + tag)){
         item.style.display = 'block'
       }
       document.getElementById('selected-tag-name').innerHTML= tag
