@@ -30,7 +30,7 @@
         {% assign alltags = alltags | concat: review.tags %}
       {% endfor %}
 
-      {% assign alltags = alltags | uniq | join: ';' | split: ';' | compact %}
+      {% assign alltags = alltags | uniq | compact %}
       {% for tag in alltags %}
         <h2 style="display: inline-block"><a href='#' onclick="showtag('{{tag}}');return false;">{{ tag }} </a></h2>
       {% endfor %}
