@@ -29,7 +29,8 @@
       {% assign alltags = alltags | concat: review.tags }
       {% endfor %}
 
-      {% for tag in alltags | uniq %}
+      {% assign alltags = alltags | uniq %}
+      {% for tag in alltags %}
         <h2 style="display: inline-block"><a onclick="showtag({{tag}},{{alltags}})">{{ tag }}</a></h2>
       {% endfor %}
 
@@ -58,7 +59,9 @@
 
 <script>
     function showtag(tag,alltags) {
-
+        {% for t in alltags %}
+        document.getElementsByClassName('tag-{{ t }}').style.display = "none";
+        {% endfor %}
         document.getElementsByClassName('tag-' + tag).style.display = "block";
         document.getElementById('selected-tag-name').innerHTML= tag
     }
