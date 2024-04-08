@@ -62,7 +62,7 @@ function lunr_search(term) {
 }
 </script>
 <style>
-    #lunrsearchresults {padding-top: 0.2rem;}
+    #lunrsearchresults {padding-top: 0.2rem;text-shadow: none;}
     .lunrsearchresult {padding-bottom: 1rem;}
     .lunrsearchresult .title {color: #218380;font-weight:700}
     .lunrsearchresult .url {color: silver;}
@@ -77,9 +77,3 @@ function lunr_search(term) {
 </style>
 
 
-<form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
-    <p><input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search Reviews" /></p>
-</form>
-<div id="lunrsearchresults">
-    <ul></ul>
-</div>
