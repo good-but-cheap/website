@@ -55,4 +55,4 @@ table {
 
 
 .navsearchform {padding-left: 1ch;}
-.navbar-nav ul {align-items: baseline;}
+ul .navbar-nav {align-items: baseline;}
