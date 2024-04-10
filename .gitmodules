@@ -1,3 +1,7 @@
 [submodule "_reviews"]
 	path = _reviews
 	url = git@github.com:good-but-cheap/reviews.git
+
+[submodule "_lists"]
+	path = _lists
+	url = git@github.com:good-but-cheap/lists.git

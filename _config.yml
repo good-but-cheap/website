@@ -12,6 +12,9 @@ collections:
   reviews:
     output: true
     permalink: /review/:title/
+  lists:
+    output: true
+    permalink: /list/:title/
 
 defaults:
   - scope:
