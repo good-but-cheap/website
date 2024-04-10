@@ -23,10 +23,10 @@
     </div>
 
     <div class="row">
-      {% assign alltags = site.reviews | map: 'categories' | uniq | capitalize %}
+      {% assign alltags = site.reviews | map: 'categories' | uniq %}
 
       {% for tag in alltags %}
-        <h2 style="display: inline-block"><a href='#' onclick="showtag('{{tag}}');return false;">{{ tag | }}</a>&nbsp;</h2> 
+        <h2 style="display: inline-block"><a href='#' onclick="showtag('{{tag}}');return false;">{{ tag | capitalize }}</a>&nbsp;</h2> 
       {% endfor %}
 
       <h3 id="selected-tag-name"></h3>
@@ -34,7 +34,7 @@
       {% for review in site.reviews %}
       <div class="tag 
       {% for tag in review.categories %}
-        tag-{{ tag }} 
+        tag-{{ tag | capitalize }} 
       {% endfor %}
       ">
         <div class="col-md-4 col-sm-6 portfolio-item">
