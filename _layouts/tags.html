@@ -23,7 +23,7 @@
     </div>
 
     <div class="row">
-      {% assign alltags = site.reviews | map: 'tags' | uniq %}
+      {% assign alltags = site.reviews | map: 'categories' | uniq %}
 
       {% for tag in alltags %}
         <h2 style="display: inline-block"><a href='#' onclick="showtag('{{tag}}');return false;">{{ tag }} &nbsp;</a></h2> 
@@ -33,7 +33,7 @@
       
       {% for review in site.reviews %}
       <div class="tag 
-      {% for tag in review.tags %}
+      {% for tag in review.categories %}
         tag-{{ tag }} 
       {% endfor %}
       ">
@@ -58,13 +58,13 @@
       var coll = document.getElementsByClassName(tag)
       var tagcoll = document.getElementsByClassName('tag-' + tag)
 
-      for (var item = 0; i < coll.length; i++){
+      for (var item = 0; item < coll.length; item++){
         console.log("next")
         console.log(item)
         console.log(coll[item])
         coll[item].style["display"] = 'none';
       }
-      for (var item = 0; i < tagcoll.length; i++){
+      for (var item = 0; item < tagcoll.length; item++){
         tagcoll[item].style["display"] = 'block';
       }
       document.getElementById('selected-tag-name').innerHTML= tag
