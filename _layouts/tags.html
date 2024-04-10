@@ -23,10 +23,10 @@
     </div>
 
     <div class="row">
-      {% assign alltags = site.reviews | map: 'categories' | capitalize | uniq %}
+      {% assign alltags = site.reviews | map: 'categories' | uniq | capitalize %}
 
       {% for tag in alltags %}
-        <h2 style="display: inline-block"><a href='#' onclick="showtag('{{tag}}');return false;">{{ tag }}</a>&nbsp;</h2> 
+        <h2 style="display: inline-block"><a href='#' onclick="showtag('{{tag}}');return false;">{{ tag | }}</a>&nbsp;</h2> 
       {% endfor %}
 
       <h3 id="selected-tag-name"></h3>
