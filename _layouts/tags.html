@@ -23,34 +23,30 @@
     </div>
 
     <div class="row">
+      {% assign alltags = site.reviews | map: 'categories' | uniq %}
 
-      {% assign alltags = "" %}
-
-      {% for review in site.reviews %}
-        {% assign alltags = alltags | concat: review.tags %}
-      {% endfor %}
-
-      {% assign alltags = alltags | uniq | join: ';' | strip | split: ';' | compact %}
       {% for tag in alltags %}
-        <h2 style="display: inline-block"><a href='#' onclick="showtag('{{tag}}');return false;">{{ tag }} </a></h2>
+        <h2 style="display: inline-block"><a href='#' onclick="showtag('{{tag}}');return false;">{{ tag | capitalize }}</a>&nbsp;&nbsp;&nbsp;&nbsp;</h2> 
       {% endfor %}
 
-      <h3 id="selected-tag-name"></h3>
+      </div><div class="row justify-center"><h1 id="selected-tag-name"></h1>
+
+      </div>
+      <div class="row">
+      
       {% for review in site.reviews %}
       <div class="tag 
-      {% for tag in review.tags %}
+      {% for tag in review.categories %}
         tag-{{ tag }} 
       {% endfor %}
-      ">
-        <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" href="{{review.url}}">
-            <img class="img-fluid" src="{{review.picture}}" alt="">
-            </a>
-            <div class="portfolio-caption">
-            <h4>{{review.title}}</h4>
-            <p class="text-muted"></p>
-            </div>
-        </div>
+      col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" href="{{review.url}}">
+          <img class="img-fluid" src="{{review.picture}}" alt="">
+          </a>
+          <div class="portfolio-caption">
+          <h4>{{review.title}}</h4>
+          <p class="text-muted"></p>
+          </div>
       </div>
       {% endfor %}
 
@@ -60,11 +56,23 @@
 
 <script>
     function showtag(tag) {
-        {% for t in alltags %}
-        document.getElementsByClassName('tag-{{ t }}').style.display = "none";
-        {% endfor %}
-        document.getElementsByClassName('tag-' + tag).style.display = "block";
-        document.getElementById('selected-tag-name').innerHTML= tag
+      console.log("showtag")
+      var coll = document.getElementsByClassName('tag')
+      var tagcoll = document.getElementsByClassName('tag-' + tag)
+
+      console.log(coll.length, tagcoll.length)
+
+      for (var item = 0; item < coll.length; item++){
+        console.log("coll")
+        console.log(item)
+        coll[item].style["display"] = 'none';
+      }
+      for (var item = 0; item < tagcoll.length; item++){
+        console.log("tagcoll")
+        tagcoll[item].style["display"] = 'block';
+      }
+      var upper = tag.charAt(0).toUpperCase() + tag.slice(1)
+      document.getElementById('selected-tag-name').innerHTML= upper
     }
 </script>
 
