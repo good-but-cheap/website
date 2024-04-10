@@ -57,14 +57,15 @@
     function showtag(tag) {
       var coll = document.getElementsByClassName(tag)
       var tagcoll = document.getElementsByClassName('tag-' + tag)
-      for (const item in coll){
+
+      for (var item = 0; i < coll.length; i++){
         console.log("next")
         console.log(item)
         console.log(coll[item])
-        coll[item].style.display = 'none';
+        coll[item].style["display"] = 'none';
       }
-      for (const item in tagcoll){
-        tagcoll[item].style.display = 'block'
+      for (var item = 0; i < tagcoll.length; i++){
+        tagcoll[item].style["display"] = 'block';
       }
       document.getElementById('selected-tag-name').innerHTML= tag
     }
