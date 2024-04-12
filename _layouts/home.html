@@ -9,9 +9,6 @@
 
   <title>CritiPicks</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="/css/bootstrap.min.css" rel="stylesheet" />
-
   <!-- Custom fonts for this template -->
   <link href="/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -19,9 +16,6 @@
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-  <!-- Custom styles for this theme -->
-  <link href="/css/agency.css" rel="stylesheet" />
-  <link href="/css/home.css" rel="stylesheet" />
 
   <meta name="p:domain_verify" content="82c07e666d29749d3336809db1db94da"/>
 
@@ -44,27 +38,13 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shadow" id="mainNav">
     <div class="container">
 	  <a class="navbar-brand js-scroll-trigger" href="#page-top">Criti<span class="logoblack">Picks</span></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
+
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
-
-          {% include search-lunr.html %}
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/reviews">Reviews</a></li>  
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/categories">Categories</a></li>  
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/lists">Lists</a></li>   
-          
-          <form class="navsearchform" onSubmit="lunrsearchresults.showModal();lunrsearchresults.addEventListener('click',function(e) {if (e.target.id === 'lunrsearchresults') {lunrsearchresults.close();}}); return lunr_search(document.getElementById('lunrsearch').value);">
-            <p><input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search Reviews" /></p>
-          </form>
         
         </ul>
         </div>
-        <dialog id="lunrsearchresults">
-          <ul></ul>
-        </dialog>
+
 
     </div>
   </nav>
@@ -84,44 +64,11 @@
 <section class="bg-light page-section" id="related">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase"><p>Reviews</p>
-</h2>
-        <h3 class="section-subheading text-muted"><p>That might be of interest</p>
-</h3>
-      </div>
+      <p>CritiPicks is currently down for maintenance. Please check back soon.</p>
     </div>
     <div class="row">
     
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" href="/review/USB-C-Laptop-Docks">
-          <img class="img-fluid" src="/img/reviews/usbcdock/dock.pgn" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>Laptop Docks</h4>
-          <p class="text-muted"></p>
-        </div>
-      </div>
-    
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" href="/review/blender">
-          <img class="img-fluid" src="/img/reviews/blender/blender.jpg" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>Blenders</h4>
-          <p class="text-muted"></p>
-        </div>
-      </div>
-    
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" href="/review/petdoor">
-          <img class="img-fluid" src="/img/reviews/petdoor/dogdoor.jpg" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>Pet Door</h4>
-          <p class="text-muted"></p>
-        </div>
-      </div>
+
     
     </div>
   </div>
@@ -132,7 +79,6 @@
 <section class="page-section" id="contact">
   <div class="container">
     <div class="row align-items-center">
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="/reviews">See More Reviews</a>
     </div>
 </div>
 </section>
@@ -143,42 +89,13 @@
   <!-- Footer -->
 <footer class="footer" id="footer" style="background-color: white">
 <div class="container">
-  
-  <div class="row align-items-center">
-    <div class="col-md-4">
-      <span class="copyright"
-        >Copyright &copy; Crowbot LLC 2022-2024</span>
-    </div>
-    <!-- Social Media -->
-    <div class="col-md-4">
-      <ul class="list-inline social-buttons">        
-      </ul>
-    </div>
-    <!-- Legal -->
-    <div class="col-md-4">
-      <ul class="list-inline quicklinks">
-        <li class="list-inline-item">
-          <a href="/credits">Credits</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+
   
 </div>
 </footer>
 
 <!-- End Footer -->
 
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="/js/jquery.min.js"></script>
-  <script src="/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="/js/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="/js/agency.min.js"></script>
 
 </body>
 </html>
