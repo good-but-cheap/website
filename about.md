@@ -3,9 +3,10 @@ layout: page
 title: About
 ---
 
-# Welcome to CritiPicks ![The critipicks Logo](/img/logo.png){: width="10%"}
+# Welcome to CritiPicks 
+![The critipicks Logo](/img/logo.png){: width="10%"}  
 
-At CritiPicks, we don't want to be just another review site; We want to be your trusted ally in the journey to becoming a savvy consumer. Our mission is simple: to arm you with the knowledge and tools you need to choose products like an expert.  
+  At CritiPicks, we don't want to be just another review site; We want to be your trusted ally in the journey to becoming a savvy consumer. Our mission is simple: to arm you with the knowledge and tools you need to choose products like an expert.  
 
 
   We believe that knowledge is the key to empowerment. That's why we go beyond product recommendations to teach you the principles of intelligent shopping. From understanding what features to prioritize to spotting red flags, we've got you covered.  
