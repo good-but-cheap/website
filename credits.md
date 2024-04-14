@@ -3,7 +3,9 @@ layout: page
 title: Credits
 ---
 
-{{<div class="row text-center">}}
+{::options parse_block_html="true" /}
+<div class="row text-center">
+{::options parse_block_html="false" /}
 
 
  CritiPicks is a creation of
@@ -101,4 +103,6 @@ We would not have productions to review without the "makers of things". Thank yo
 
 ____________________
 
-{{</div>}}
+{::options parse_block_html="true" /}
+</div>
+{::options parse_block_html="false" /}
