@@ -4,7 +4,7 @@ title: Credits
 ---
 
 {::options parse_block_html="true" /}
-<div class="row text-center">
+<div class="text-center">
 {::options parse_block_html="false" /}
 
 
