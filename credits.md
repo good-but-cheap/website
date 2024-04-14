@@ -3,8 +3,7 @@ layout: page
 title: Credits
 ---
 
-<div class="row text-center">
-
+{:center: style="text-align: center !important"}
 
  CritiPicks is a creation of
 
@@ -101,4 +100,4 @@ We would not have productions to review without the "makers of things". Thank yo
 
 ____________________
 
-</div>
+{:center}
