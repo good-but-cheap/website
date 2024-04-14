@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Product Reviews, Focused on Adequacy!">
+  <meta name="description" content="Product Reviews to help you choose products like an Expert">
   <meta name="author" content="The CritiPicks Team">
   <link rel="canonical" href="/agency-jekyll-theme-starter/">
 
@@ -56,7 +56,8 @@
           {% include search-lunr.html %}
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/reviews">Reviews</a></li>  
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/categories">Categories</a></li>  
-          <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/lists">Lists</a></li>    -->
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/lists">Lists</a></li> 
+	  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/about">About</a></li> 
           
           <form class="navsearchform" onSubmit="lunrsearchresults.showModal();lunrsearchresults.addEventListener('click',function(e) {if (e.target.id === 'lunrsearchresults') {lunrsearchresults.close();}}); return lunr_search(document.getElementById('lunrsearch').value);">
             <p><input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search Reviews" /></p>
