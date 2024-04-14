@@ -1,5 +1,10 @@
-###PRIVACY POLICY
-Last Updated: April 14, 2024  
+---
+layout: page
+title: About
+---
+
+### PRIVACY POLICY  
+  Last Updated: April 14, 2024  
   This Privacy Policy (“Policy”) explains the information collection, use, and sharing practices of CritiPicks (“CP”, “CritiPicks,” “we,” “us,” and “our”).
 This Policy is incorporated into and part of CritiPicks Master Terms of Use (“Master Terms”) located at https://critipicks.com/privacy.
 Unless otherwise noted on a particular website or service hosted by Critipicks, this Policy describes and governs the information collection, use, and sharing practices of Critipicks with respect to your use of our websites that link to this Privacy Policy, including: www.critipicks.com, https://Critipicks.com (collectively, the “Websites”), and the services we provide through our Websites and/or host on our servers, including without limitation the license chooser, legal tools, search engine, the CP Login Services (defined below), and the CP Global Network community website (collectively, the Websites, and the services available through them are referred to as the “Services”).
