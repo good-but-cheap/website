@@ -27,7 +27,7 @@
         </div>
       </div> -->
 	  
-      <div class="row text-center">
+      <div class="row">
 
 	  
 
@@ -76,7 +76,7 @@
 
     <div class="row">
 
-      {% for review in site.reviews %}
+      {% for review in site.reviews limit:3 %}
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" href="{{review.url}}">
           <img class="img-fluid" src="{{review.picture}}" alt="">
